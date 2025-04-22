@@ -85,6 +85,15 @@ cmake ..
 make -j
 ```
 
+### Building for iOS, Simulator and OSX
+
+```bash
+cmake .. -G Xcode -DCMAKE_TOOLCHAIN_FILE=../ios.toolchain.cmake -DPLATFORM=SIMULATORARM64 -DBUILD_SHARED_LIBS=OFF -DEigen3_DIR=<path to eigen build folder>
+
+xcodebuild -create-xcframework -library build/libcilantro.a -headers include -output cilantro.xcframework
+```
+
+
 ## Documentation
 Documentation ([readthedocs.io](http://cilantro.readthedocs.io/en/latest/?badge=latest), [Doxygen API reference](https://codedocs.xyz/kzampog/cilantro/)) is a work in progress.
 The short provided examples (built by default) cover a significant part of the library's functionality.
