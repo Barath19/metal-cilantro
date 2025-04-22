@@ -1,5 +1,5 @@
 <div align = "center">
-    <img src = "https://kzampog.github.io/images/cilantro_logo.png" width="300" alt = "Logo" />
+    <img src = "https://raw.githubusercontent.com/Barath19/barath19.github.io/refs/heads/master/images/cilantro-metal.png" width="300" alt = "Logo" />
 </div>
 
 <div align = "center">
@@ -17,7 +17,7 @@
     </a>
 </div>
 
-## A Lean and Efficient Library for Point Cloud Data Processing
+## A Lean and Efficient Library for Point Cloud Data Processing. Now, accelerated using Metal 
 `cilantro` is a lean and fast C++ library for working with point cloud data, with emphasis given to the 3D case.
 It includes efficient implementations for a variety of common operations, providing a clean API and attempting to minimize the amount of boilerplate code.
 The library is extensively templated, enabling operations on data of arbitrary numerical type and dimensionality (where applicable) and featuring a modular/extensible design of the more complex procedures.
